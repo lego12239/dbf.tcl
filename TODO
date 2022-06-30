@@ -1,0 +1,21 @@
+- rec_read: read whole rec atonce
+- add memo support
+- convert date to YYYY-MM-DD on rec_read
+- add custom dbf format:
+  - binary/text timestamp type in unix time format (w/wo timezone?)
+  - binary/text integers type
+  - text big numbers type
+  - text boolean type
+  - binary/text floats type
+  - binary type
+  - text type(memo)
+  - text encoding for text fields is saved in a file header
+  - text field end with \0 instead of space
+  - save addresses of deleted records in a file header
+    (collect it on every append if empty and if some flag is activated;
+	 or collect it only on some routine call)
+  - last update of file with timestamp instead of date
+  - record size can be more than 2^16
+  - journal file?
+  - field name can be more than 11 bytes
+  - field size can be more than 256 bytes
