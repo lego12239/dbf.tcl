@@ -86,7 +86,7 @@ dbf3
 field type and sizes:
 
 | type | size      | info
---------------------------
+|------|-----------|-------
 | C    | mandatory | text
 | D    | optional  | string representation of a date (size is 8 bytes)
 |      |           | can be YYYYMMDD, YYYY-MM-DD or YYYY.MM.DD on update
