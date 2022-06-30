@@ -85,14 +85,14 @@ dbf3
 
 field type and sizes:
 
-type | size      | info
----------------------
- C   | mandatory | text
- D   | optional  | string representation of a date (size is 8 bytes)
-     |           | can be YYYYMMDD, YYYY-MM-DD or YYYY.MM.DD on update
- F   | mandatory | string representation of a float
- N   | mandatory | string representation of a number(integer or float)
- L   | optional  | Boolean value, Y/y/T/t for yes, N/n/F/f for no (size is 1 byte)
+| type | size      | info
+--------------------------
+| C    | mandatory | text
+| D    | optional  | string representation of a date (size is 8 bytes)
+|      |           | can be YYYYMMDD, YYYY-MM-DD or YYYY.MM.DD on update
+| F    | mandatory | string representation of a float
+| N    | mandatory | string representation of a number(integer or float)
+| L    | optional  | Boolean value, Y/y/T/t for yes, N/n/F/f for no (size is 1 byte)
 
 
 Examples
